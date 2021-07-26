@@ -10,7 +10,7 @@
 
 + Rechte zum Installieren von Software (Administratorrechte nicht erforderlich)
 
-+ eventuell eine Externe Computer-Maus
++ Eventuell eine Externe Computer-Maus
 
 ### Software:
 
