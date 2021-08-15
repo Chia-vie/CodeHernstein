@@ -14,3 +14,7 @@
 ### Conditions - Wenn - sonst
 
 + https://colab.research.google.com/drive/1ipJq5XSzT4-Qzcq2ZI4MbQ0aw3cfru4m
+
+### Schleifen und Iterables
+
++ https://colab.research.google.com/drive/1mrI3dBbDqa2ExgZb6AXXk4183qrXQRm9
