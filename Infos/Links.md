@@ -10,3 +10,7 @@
 ### Basics - Wiederholung
 
 + https://colab.research.google.com/drive/1rd80sDc27dNZltMRADODjDxyZkmobo2N
+
+### Conditions - Wenn - sonst
+
++ https://colab.research.google.com/drive/1ipJq5XSzT4-Qzcq2ZI4MbQ0aw3cfru4m
