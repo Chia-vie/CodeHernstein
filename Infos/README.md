@@ -18,3 +18,7 @@
 ### Schleifen und Iterables
 
 + https://colab.research.google.com/drive/1mrI3dBbDqa2ExgZb6AXXk4183qrXQRm9
+
+### Iterable Eigenschafen
+
++ https://colab.research.google.com/drive/1V7peLtfxzoXE5Yx-hnSD0OZpfeS6aSBq#scrollTo=SaWFZxqlLv01
