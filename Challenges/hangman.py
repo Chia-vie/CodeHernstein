@@ -2,6 +2,25 @@ import random
 import string
 import numpy as np
 
+# Hangman
+manschkis =['''
+ __ __
+|     
+|     
+|     
+|    
+|________
+''',
+'''
+ __ __
+|     |
+|     0
+|     Y
+|    / \\
+|________
+'''
+]
+
 # Mögliche Wörter
 woerter = 'Quizshow, Vollmond, Hollywood, Puderzucker, Dumpfbacke, ' \
          'Kuddelmuddel, Hund, Oper, Mond, Mars, Quiz, Auto, Zebra, ' \
