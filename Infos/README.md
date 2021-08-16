@@ -19,6 +19,6 @@
 
 + https://colab.research.google.com/drive/1mrI3dBbDqa2ExgZb6AXXk4183qrXQRm9
 
-### Iterable Eigenschafen
+### Beispiele Iterables und deren Eigenschaften
 
-+ https://colab.research.google.com/drive/1V7peLtfxzoXE5Yx-hnSD0OZpfeS6aSBq#scrollTo=SaWFZxqlLv01
++ https://colab.research.google.com/drive/1J80S5Eno2AD4fsJ9XYwOstJ4YoWQgEoJ?usp=sharing
