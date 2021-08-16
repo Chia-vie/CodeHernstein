@@ -22,3 +22,7 @@
 ### Beispiele Iterables und deren Eigenschaften
 
 + https://colab.research.google.com/drive/1J80S5Eno2AD4fsJ9XYwOstJ4YoWQgEoJ?usp=sharing
+
+### Funktionen
+
++ https://colab.research.google.com/drive/15TN-3Yur160vB3eweeFLgtKfVJgGMoP5#scrollTo=-PKPHjToRABH
