@@ -26,3 +26,8 @@
 ### Funktionen
 
 + https://colab.research.google.com/drive/15TN-3Yur160vB3eweeFLgtKfVJgGMoP5#scrollTo=-PKPHjToRABH
+
+### Klassen
+
++ https://colab.research.google.com/drive/1GHo-bIh45Ohm-DZbBb5PAeXT9wU7iAmI
++ https://colab.research.google.com/drive/155rHoxsuWaL0_pVgJPHq8gfRxnHldqbs?usp=sharing
