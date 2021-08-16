@@ -50,7 +50,8 @@ else:
     print('Leider nicht richtig.')
     if versuche == 2:
         # Tipp geben
-        print(f'Hier ist ein Tipp für dich: \n {tipps[str(frage_count[0])]}')
+        tipp = tipps[str(frage_count+1)][versuche-2]
+        print(f'Hier ist ein Tipp für dich: \n {tipp}')
 
 
 
