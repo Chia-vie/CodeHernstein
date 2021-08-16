@@ -1,32 +1,32 @@
+'''
+author: Horsti Horst based on work by Christine Ackerl
+'''
+
 import random
 
-# Möglichkeiten
-moeglichkeiten = ['SCHERE', 'STEIN', 'PAPIER']
+def ssp(userwahl):
+    # Möglichkeiten
+    moeglichkeiten = ['SCHERE', 'STEIN', 'PAPIER']
 
-# Alle möglichen Kombinationen die zu Gewinn führen
-gewinn=[['SCHERE','PAPIER'],['STEIN','SCHERE'],['PAPIER','STEIN']]
+    # Alle möglichen Kombinationen die zu Gewinn führen
+    gewinn=[['SCHERE','PAPIER'],['STEIN','SCHERE'],['PAPIER','STEIN']]
 
-# Computer wählt zufällig
-zzahl = random.randint(0, 2)
-computerwahl = moeglichkeiten[zzahl]
+    # Computer wählt zufällig
+    zzahl = random.randint(0, 2)
+    computerwahl = moeglichkeiten[zzahl]
 
-# Begrüßung
-print('Hallo!')
+    # Auswahl ausgeben
+    print(f'Du hast {userwahl} gewählt, ich habe {computerwahl} gewählt')
 
-# User wählt
-userwahl = input(f'Wähle Schere, Stein oder Papier!').upper()
+    paar = [computerwahl, userwahl]
 
-# Auswahl ausgeben
-print(f'Du hast {userwahl} gewählt, ich habe {computerwahl} gewählt')
+    # Unentschieden:
+    if computerwahl == userwahl:
+        print('Unentschieden')
 
-paar = [computerwahl, userwahl]
+    elif [computerwahl,userwahl] in gewinn:
+        print('HAHA ich habe gewonnen')
 
-# Unentschieden:
-if computerwahl == userwahl:
-    print('Unentschieden')
+    elif [userwahl,computerwahl] in gewinn:
+        print('Mähhhh ich hab verloren')
 
-elif [computerwahl,userwahl] in gewinn:
-    print('HAHA ich habe gewonnen')
-
-elif [userwahl,computerwahl] in gewinn:
-    print('Mähhhh ich hab verloren')
