@@ -1,6 +1,7 @@
 import time
 geld=100000
-print("""Eine neue Saison fängt an und damit auch das alljährliche Rennen. Doch du hast noch kein Auto""")
+print("""Eine neue Saison fängt an und damit auch das alljährliche Rennen. 
+Doch du hast noch kein Auto""")
 #Autokauf
 print("""
 Du hast  100.000 Euro.
@@ -16,17 +17,21 @@ if autowahl == 1:
     geld=geld-30000
     print("Du willst wohl viel tunen? Also gut!")
     auto="Ford Fiesta"
+
 elif autowahl == 2:
     geld=geld-40000
     print("Eine gute Wahl!")
     auto="Audi"
+
 elif autowahl == 3:
     geld=geld-50000
     print("Viel Spaß auf der Rennstrecke!")
     auto="Ford Mustgang"
+
 else:
     print("Selber schuld wenn du nicht schreiben kannst!")
     quit()
+
 time.sleep(3)
 #Tuning
 print("""
