@@ -1,6 +1,3 @@
-print('HAllo')
+print('HAlló')
 
-print('Chrisi was here')
-
-
-print('lakllalalalala')
+print('Leon was here')
