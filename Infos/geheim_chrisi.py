@@ -32,4 +32,3 @@ if __name__ == '__main__':
 
     klar = Geheim(meintext.output, 'd')
 
-print(globals())
