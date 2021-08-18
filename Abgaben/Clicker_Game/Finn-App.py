@@ -12,9 +12,9 @@ app.title("Clicker_Game")
 #beschreibung = tk.Label(app, text='Willkommen! Hier kannst du einen Knopf drücken!', font=('Helvetica', 16, 'bold'),
                         #bg='pale turquoise', fg='black', width = 40, height=2)
 
-#header = tk.Label(app,text='Clicker_Game',
-                        #font=('Gothic',24, 'bold'), bg='gray1', fg='red2', width = 40, height=2)
-#header.pack()
+header = tk.Label(app,text='Clicker_Game',
+                        font=('Gothic',24, 'bold'), bg='gray1', fg='red2', width = 40, height=2)
+header.pack()
 app.config(bg='gray1')
 
 
