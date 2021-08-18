@@ -39,9 +39,8 @@ def onClick(event=None):
     counter.set(counter.get() + 1)
 
 tk.Label(app, textvariable=counter, width=200, height=5, fg="gray100", bg = "gray1").pack()
-tk.Button(app, text="", command=onClick, fg="gray1", bg = "gray1", width=200, height=50).pack()
+tk.Button(app, text="Click for Point", command=onClick, fg="green2", bg = "gray1", width=10000, height=10000).pack()
 
-app.mainloop()
 
 
 
