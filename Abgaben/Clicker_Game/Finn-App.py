@@ -1,5 +1,9 @@
 import tkinter as tk
 import time
+# from tkinter import *
+from PIL import ImageTk, Image
+
+
 time.sleep(0.00001)
 app = tk.Tk()
 app.geometry("1920x1080")
@@ -35,8 +39,20 @@ counter = tk.IntVar()
 def onclick():
     counter.set(counter.get() + 1)
 
+# def do(event):
+# print("Button Clicked!")
+# counter.set(counter.get() + 1)
+# ...
+
+
+img = ImageTk.PhotoImage(Image.open("Unbenannt.png"))
+# tk.Button = Label(app, image = img, activeforeground="green2", fg="green2", activebackground="gray1", bg="gray1", width=100, height=50).pack()
+
+# tk.Button.bind('<Button-1>', do)
+
 
 tk.Label(app, textvariable=counter, width=200, height=5, fg="gray100", bg="gray1").pack()
-tk.Button(app, text="Click for Point", command=onclick, activeforeground="green2", fg="green2", activebackground="gray1", bg="gray1", width=10000, height=10000).pack()
+tk.Button(app, image=img, command=onclick, activeforeground="green2", fg="green2", activebackground="gray1", bg="gray1", width=590, height=700).pack()
+# tk.Button
 
 app.mainloop()
