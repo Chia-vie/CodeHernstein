@@ -19,7 +19,7 @@ app.title("Clicker Game")
 # beschreibung = tk.Label(app, text='Willkommen! Hier kannst du einen Knopf drücken!', font=('Helvetica', 16, 'bold'),
 # bg='pale turquoise', fg='black', width = 40, height=2)
 
-header = tk.Label(app, text='Clicker Game', font=('Gothic', 24, 'bold'), bg='gray1', fg='red2', width=40, height=2)
+header = tk.Label(app, text='Füttere Foxi', font=('Gothic', 24, 'bold'), bg='gray1', fg='green2', width=40, height=2)
 header.pack()
 app.config(bg='gray1')
 
@@ -50,8 +50,8 @@ img = ImageTk.PhotoImage(Image.open("Unbenannt.png"))
 
 # tk.Button.bind('<Button-1>', do)
 
-
-tk.Label(app, textvariable=counter, width=200, height=5, fg="gray100", bg="gray1").pack()
+tk.Label(app, font=('Gothic', 24, 'bold'), text="Hundefutter:", bg="gray1", fg="gray100", width=100).pack()
+tk.Label(app, font=('Gothic', 24, 'bold'), textvariable=counter, width=200, height=5, fg="gray100", bg="gray1").pack()
 tk.Button(app, image=img, command=onclick, activeforeground="green2", fg="green2", activebackground="gray1", bg="gray1", width=590, height=700).pack()
 # tk.Button
 
