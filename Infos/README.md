@@ -31,3 +31,7 @@
 
 + https://colab.research.google.com/drive/1GHo-bIh45Ohm-DZbBb5PAeXT9wU7iAmI
 + https://colab.research.google.com/drive/155rHoxsuWaL0_pVgJPHq8gfRxnHldqbs?usp=sharing
+
+### Dateien managen
+
++ https://colab.research.google.com/drive/1U9I7bNYy4VqvwkytvalnsyHiHBb2dtl8?usp=sharing
