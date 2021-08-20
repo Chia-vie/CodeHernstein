@@ -51,7 +51,7 @@ def clicked(*args):
         rect = "x"
     else:
         rect = "y"
-    print(rect)
+
     counter.set(counter.get() + 1)
     feld.delete("all")
     if rect == "x":
